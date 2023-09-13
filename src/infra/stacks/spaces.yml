@@ -1,0 +1,12 @@
+openapi: "3.0.2"
+info:
+  title: API Title
+  version: "1.0"
+servers:
+  - url: https://fjqadrwh01.execute-api.eu-west-2.amazonaws.com/prod/
+paths:
+  /spaces:
+    get:
+      responses:
+        "200":
+          description: OK

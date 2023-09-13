@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Aws locally",
+            "runtimeArgs": [  // config for typescript
+                "-r",
+                "ts-node/register"
+            ],
+            "args": ["${relativeFile}"],   // run the debug on the opened file
+            "env": {
+                "AWS_REGION": "eu-west-2",
+                "TABLE_NAME": "spaces",
+            }
+        }
+    ]
+}
