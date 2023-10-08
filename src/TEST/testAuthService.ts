@@ -24,7 +24,7 @@ const testSignUp = async () => {
     const res = await AuthService.signUpUser({
       username: "romany",
       email: "romanyfayiez@gmail.com",
-      password: "Rafie208*",
+      password: "rooma123",
     });
     console.log("res :::>>>", res);
   } catch (error) {
