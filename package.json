@@ -9,8 +9,8 @@
   "author": "Romany",
   "license": "ISC",
   "scripts": {
-    "build": "tsc",
     "watch": "tsc -w",
+    "build": "tsc",
     "test": "jest",
     "cdk": "cdk"
   },
