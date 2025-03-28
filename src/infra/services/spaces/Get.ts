@@ -18,7 +18,7 @@ export const getSpaces = async (
   if (event.queryStringParameters) {
     const { id } = event.queryStringParameters;
 
-    // if id is not present in the queryStringParameters, return 400
+    // if id is not present in the queryStringParameters, we return 400
     if (!id) {
       return {
         statusCode: 400,
