@@ -12,8 +12,8 @@
           "tsconfig.json",
           "package*.json",
           "yarn.lock",
-          "node_modules",
-          "test"
+          "test",
+          "node_modules"
         ]
       },
       "context": {
