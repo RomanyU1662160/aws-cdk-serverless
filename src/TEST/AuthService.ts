@@ -13,6 +13,7 @@ To run this service, use the debug mode in VSCode,
  Then we use it when we call the API.
 */
 
+
 /*
 AWS Amplify is an AWS service to create  full stack applications, 
 it has an auth service that use AWS cognito for authentication 
