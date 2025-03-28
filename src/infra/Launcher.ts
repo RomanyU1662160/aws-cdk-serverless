@@ -12,9 +12,6 @@ const authStack = new AuthStack(app, 'AuthStack', {
     region: process.env.CDK_DEFAULT_REGION,
   },
 });
-const addMethod = (num1: number, num2: number) => {
-  return num1 + num2;
-};
 
 const dataStack = new DataStack(app, 'DataStack', {
   env: {
